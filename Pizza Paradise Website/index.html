@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Paradise</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>Pizza Paradise</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="hero">
+      <div class="hero-content">
+        <h2>Welcome to Pizza Paradise</h2>
+        <p>The best pizzas made with the freshest ingredients</p>
+        <a href="#menu" class="cta-button">Order Now</a>
+      </div>
+    </section>
+
+    <section id="menu">
+      <h2>Our Menu</h2>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <img src="images/margherita.jpg" alt="Margherita Pizza" />
+          <h3>Margherita</h3>
+          <p>Classic pizza with fresh tomatoes, mozzarella, and basil.</p>
+        </div>
+        <div class="menu-item">
+          <img src="images/pepporoni.jpg" alt="Pepperoni Pizza" />
+          <h3>Pepperoni</h3>
+          <p>Loaded with spicy pepperoni and cheese.</p>
+        </div>
+        <div class="menu-item">
+          <img src="images/veggie.jpg" alt="Veggie Pizza" />
+          <h3>Veggie</h3>
+          <p>A variety of fresh vegetables on a crispy crust.</p>
+        </div>
+      </div>
+    </section>
+    <hr />
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        Pizza Paradise has been serving the community with the best pizzas since
+        1999. We use only the freshest ingredients and our secret family recipe
+        to make sure every pizza is perfect.
+      </p>
+    </section>
+    <hr />
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Pizza Paradise. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
